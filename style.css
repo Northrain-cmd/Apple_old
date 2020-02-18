@@ -1,0 +1,149 @@
+body{margin:0;}
+.wrapper{
+    height: 110vh;
+    margin:0;
+}
+nav{
+    width: 70%;
+    z-index: 999;
+    height: 25%;
+}
+.top{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    align-items: center;
+    height:90vh;
+    width: 100%;;
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    background-size:1440px 1315px;;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width:100%;
+    height:25%;
+    margin-top: 12%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    border-radius: 2.5%;
+    background: linear-gradient(#666,#707070 50%,#808080 51%);
+
+}
+.navbar li img{
+    max-width:20%;
+    margin-bottom: 5%;
+}
+.navbar_item{
+    display: flex;
+    color:white;
+    font-size: 0.8em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex:1;
+    height:100%;
+    border:1px solid rgb(140, 140, 140);
+    
+}
+.navbar_item:hover{
+    background:linear-gradient(#444,#404040 50%,#505050 51%);;
+}
+li:last-of-type:hover{
+    background: none;
+
+}
+form{
+    height:auto;
+    width:100%;
+    overflow: hidden;
+    padding: 2px 10px 1px 10px;
+
+}
+input{
+    width:100%;
+    height:15px;
+    overflow: hidden;
+    border-radius: 12px;
+    text-align: center;
+    background: linear-gradient(#666,#707070 50%,#808080 51%);
+    border: 2px groove rgb(125, 125, 125);
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAAzklEQVQYlWNgAIP%2F9v%2FrwVCfARn85%2F%2B%2F%2Fz8CzEeS%2BnMQJPL0%2Ba37796DJfsZ4EYBwar9DBkMCQwFR86DJeXBUo%2F6QToYHCAKtaO%2Bf%2F%2F%2F%2F3kmmHNm%2Fv%2F%2FD27CTee4c%2Ff%2F%2F2vT4VKfXiM5CQg2t4M5lckQd%2F3nB0n8vQji5HhCFEpArP73AeGF35dACkEgYPtxmODXnxueg2igbqikh3l%2F1%2FpV%2B7vWyzUwxHatB%2BvcBLNfgMEA6AEDBg4g26Br%2FffvqeUMWIEBULcEdikGkG4AzGOfgUQC7TUAAAAASUVORK5CYII%3D) 2% 60% no-repeat;
+
+    
+}
+.top h1{
+    text-align: center;
+    font-size: 4em;
+}
+#subhead{
+    width:70%;
+    margin:0 auto;
+}
+.top p{
+    text-align: center;
+    font-size: 2em;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    height:30vh;
+}
+.bot_item{
+    flex:1;
+    border:1px solid white;
+}
+.bot_item img{
+    max-width:100%;
+}
+footer{
+    width:80%;
+    margin:0 auto;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.left_foot{
+    flex:1;
+}
+
+.left_foot p:first-child{
+    margin-top: 3%;
+    color:#6e6e6e;
+    font-size: 0.6em;
+}
+.right_foot{
+    flex: 1;
+    align-items: center;
+    margin-top: 1%;
+}
+.left_foot p:last-child{
+    color:#6e6e6e;
+    font-size: 0.6em;
+    margin-top: 0;
+}
+.right_foot ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    color:#6e6e6e;
+    font-size: 0.6em;
+}
+.right_foot ul li{
+  flex:1;
+  margin:0 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+    text-decoration: none;
+}
